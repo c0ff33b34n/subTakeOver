@@ -1,0 +1,1 @@
+subfinder -d twilio.com >> domains ; assetfinder -subs-only twilio.com >> domains ; amass enum -norecursive -noalts -d twilio.com >> domains ; cat domains|grep twilio|sort -u > subdata.txt; subjack -w subdata.txt -t 100 -timeout 30 -ssl -c ~/go/src/github.com/haccer/subjack/fingerprints.json -v 3 >> takeover ;
