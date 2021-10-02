@@ -7,7 +7,7 @@ $ Usage:
   
   ./subTakeOver
 
-  Enter the target
+  Enter the target.
   
   Read takeOver.txt for scan result.
 
