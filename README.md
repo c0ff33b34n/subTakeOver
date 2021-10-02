@@ -3,9 +3,9 @@ Simple script to find Subdomain takeover (automation).
 
 $ Usage: 
 
-  chmod +x subTakeOver
+  chmod +x subTakeOver.sh
   
-  ./subTakeOver
+  ./subTakeOver.sh
 
   Enter the target.
   
