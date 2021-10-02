@@ -1,11 +1,12 @@
 # subTakeOver
-Simple script for Subdomain takeover automation.
+Simple script to find Subdomain takeover (automation).
 
-$ Just replace target to your target.
-
-$ You can add more subdomain finder for more result.
-
-$ Script is in subTakeOver.txt, different subdomain finding tricks is in subFind.txt.
+$ Usage: 
+  chmod +x subTakeOver
+  ./subTakeOver
+  Enter the target
+  Read takeOver.txt for scan result.
 
 Note: Subjack must be installed.
 Different subdomain finders gives different results.
+Maximum subs equals best results.
