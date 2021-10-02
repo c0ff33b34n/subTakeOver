@@ -17,3 +17,8 @@ amass enum -norecursive -noalts -d $tar >> domains ;
 
 cat domains|grep $tar|sort -u > subdata.txt;
 subjack -w subdata.txt -t 100 -timeout 30 -ssl -c ~/go/src/github.com/haccer/subjack/fingerprints.json -v 3 >> takeOver.txt ;
+
+rm domains;
+rm subdata.txt;
+
+#bie
