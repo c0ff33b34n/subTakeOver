@@ -3,8 +3,11 @@ Simple script to find Subdomain takeover (automation).
 
 $ Usage: 
   chmod +x subTakeOver
+  
   ./subTakeOver
+
   Enter the target
+  
   Read takeOver.txt for scan result.
 
 Note: Subjack must be installed.
